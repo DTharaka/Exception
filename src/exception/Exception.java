@@ -13,7 +13,7 @@ public class Exception {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int x=1;
+        int x = 1;
         do{
             try{
             Scanner in= new Scanner(System.in);
@@ -21,7 +21,7 @@ public class Exception {
             System.out.println("Enter first number");
             int num1 = in.nextInt();
             
-             System.out.println("Enter second number");
+            System.out.println("Enter second number");
             int num2 = in.nextInt();
             
             System.out.println("Enter third number");
@@ -33,16 +33,16 @@ public class Exception {
             System.out.println("Enter fifth number");
             int num5 = in.nextInt();
                 
-            int t= (num1+num2-num5) -(num3*num4);
+            int t= (num1+num2-num5) - (num3*num4);
             
-            System.out.println("Answer ="+t);
+            System.out.println("Answer is =" + t);
              
             x=4;
             
         }  catch(Exception e){
                 
            
-              System.out.println("Error has occured");
+              System.out.println("An error has occured !!!");
     }
     
 }while(x==1);
