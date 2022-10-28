@@ -33,11 +33,11 @@ public class Exception {
             System.out.println("Enter fifth number");
             int num5 = in.nextInt();
                 
-            int t= (num1+num2-num5) - (num3*num4);
+            int x = (num1 + num2 - num5) - (num3 * num4);
             
-            System.out.println("Answer is =" + t);
+            System.out.println("Answer is = " + x);
              
-            x=4;
+            x = 4;
             
         }  catch(Exception e){
                 
@@ -45,6 +45,6 @@ public class Exception {
               System.out.println("An error has occured !!!");
     }
     
-}while(x==1);
+}while(x == 1);
     }
 }
